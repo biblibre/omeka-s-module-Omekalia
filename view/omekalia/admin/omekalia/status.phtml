@@ -1,0 +1,82 @@
+<?= $this->pageTitle($this->translate('Omekalia status')) ?>
+
+<h2>Omeka S</h2>
+
+<table class="tablesaw tablesaw-stack">
+    <thead>
+        <tr>
+            <th><?= $this->translate('Expected version') ?></th>
+            <th><?= $this->translate('Current version') ?></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><?= $this->escapeHtml($omekaliaData['omeka']['version']) ?></td>
+            <td>
+                <?php if ($omekaliaData['omeka']['version'] !== \Omeka\Module::VERSION): ?>
+                    <i class="fas fa-exclamation-triangle"></i>
+                <?php endif; ?>
+                <?= \Omeka\Module::VERSION ?>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+<h2><?= $this->translate('Modules') ?></h2>
+
+<table class="tablesaw tablesaw-stack">
+    <thead>
+        <tr>
+            <th><?= $this->translate('Module') ?></th>
+            <th><?= $this->translate('Expected version') ?></th>
+            <th><?= $this->translate('Current version') ?></th>
+        </tr>
+    </thead>
+    <tbody>
+        <?php foreach ($omekaliaData['modules'] as $moduleData): ?>
+            <?php $module = $this->omekalia()->getModule($moduleData['name']); ?>
+            <?php $ok = $module && $module->getIni('version') === $moduleData['version'] ?>
+            <tr>
+                <td><?= $this->escapeHtml($moduleData['name']) ?></td>
+                <td><?= $this->escapeHtml($moduleData['version']) ?></td>
+                <td>
+                    <?php if (!$ok): ?>
+                        <i class="fas fa-exclamation-triangle"></i>
+                    <?php endif; ?>
+                    <?= $module ? $module->getIni('version') : $this->translate('not installed') ?>
+                    <?php if ($module && !$module->getDb('is_active')): ?>
+                        <?= $this->translate('(inactive)') ?>
+                    <?php endif; ?>
+                </td>
+            </tr>
+        <?php endforeach; ?>
+    </tbody>
+</table>
+
+<h2><?= $this->translate('Themes') ?></h2>
+
+<table class="tablesaw tablesaw-stack">
+    <thead>
+        <tr>
+            <th><?= $this->translate('Theme') ?></th>
+            <th><?= $this->translate('Expected version') ?></th>
+            <th><?= $this->translate('Current version') ?></th>
+        </tr>
+    </thead>
+    <tbody>
+        <?php foreach ($omekaliaData['themes'] as $themeData): ?>
+            <?php $theme = $this->omekalia()->getTheme($themeData['name']); ?>
+            <?php $ok = $theme && $theme->getIni('version') === $themeData['version'] ?>
+            <tr>
+                <td><?= $this->escapeHtml($themeData['name']) ?></td>
+                <td><?= $this->escapeHtml($themeData['version']) ?></td>
+                <td>
+                    <?php if (!$ok): ?>
+                        <i class="fas fa-exclamation-triangle"></i>
+                    <?php endif; ?>
+                    <?= $theme ? $theme->getIni('version') : $this->translate('not installed') ?>
+                </td>
+            </tr>
+        <?php endforeach; ?>
+    </tbody>
+</table>

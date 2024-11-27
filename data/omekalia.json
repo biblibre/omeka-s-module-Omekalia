@@ -1,0 +1,161 @@
+{
+    "omeka": {
+        "url": "https://github.com/omeka/omeka-s",
+        "version": "4.1.1",
+        "tag": "v4.1.1"
+    },
+    "modules": [
+        {
+            "name": "AnyCloud",
+            "version": "3.2.1",
+            "tag": "v3.2.1",
+            "url": "https://github.com/HBLL-Collection-Development/omeka-s-any-cloud"
+        },
+        {
+            "name": "ArkUrl",
+            "version": "0.3.0",
+            "tag": "v0.3.0",
+            "url": "https://github.com/biblibre/omeka-s-module-ArkUrl"
+        },
+        {
+            "name": "Coins",
+            "version": "3.1.0",
+            "tag": "v3.1.0",
+            "url": "https://github.com/biblibre/omeka-s-module-Coins"
+        },
+        {
+            "name": "ContactUs",
+            "version": "3.4.15+biblibre.1",
+            "tag": "v3.4.15+biblibre.1",
+            "url": "https://github.com/biblibre/omeka-s-module-ContactUs"
+        },
+        {
+            "name": "CreateMissingThumbnails",
+            "version": "0.3.0",
+            "tag": "v0.3.0",
+            "url": "https://github.com/biblibre/omeka-s-module-CreateMissingThumbnails"
+        },
+        {
+            "name": "CSVImport",
+            "version": "2.6.1",
+            "tag": "v2.6.1",
+            "url": "https://github.com/omeka-s-modules/CSVImport"
+        },
+        {
+            "name": "FileSideload",
+            "version": "1.7.1",
+            "tag": "v1.7.1",
+            "url": "https://github.com/omeka-s-modules/FileSideload"
+        },
+        {
+            "name": "Group",
+            "version": "3.4.6+biblibre.1",
+            "tag": "v3.4.6+biblibre.1",
+            "url": "https://github.com/biblibre/omeka-s-module-Group"
+        },
+        {
+            "name": "GuestRole",
+            "version": "0.3.1",
+            "tag": "v0.3.1",
+            "url": "https://github.com/biblibre/omeka-s-module-GuestRole"
+        },
+        {
+            "name": "ItemSetCalendar",
+            "version": "0.3.0",
+            "tag": "v0.3.0",
+            "url": "https://github.com/biblibre/omeka-s-module-ItemSetCalendar"
+        },
+        {
+            "name": "ItemSetsTree",
+            "version": "0.7.2",
+            "tag": "v0.7.2",
+            "url": "https://github.com/biblibre/omeka-s-module-ItemSetsTree"
+        },
+        {
+            "name": "LocalMediaIngester",
+            "version": "0.3.0",
+            "tag": "v0.3.0",
+            "url": "https://github.com/biblibre/omeka-s-module-LocalMediaIngester"
+        },
+        {
+            "name": "Matomo",
+            "version": "0.1.0",
+            "tag": "v0.1.0",
+            "url": "https://github.com/biblibre/omeka-s-module-Matomo"
+        },
+        {
+            "name": "Necropolis",
+            "version": "0.2.0",
+            "tag": "v0.2.0",
+            "url": "https://github.com/biblibre/omeka-s-module-Necropolis"
+        },
+        {
+            "name": "OaiPmhHarvester",
+            "version": "3.4.14+biblibre.2",
+            "tag": "v3.4.14+biblibre.2",
+            "url": "https://github.com/biblibre/omeka-s-module-OaiPmhHarvester"
+        },
+        {
+            "name": "OaiPmhRepository",
+            "version": "3.4.9+biblibre.1",
+            "tag": "v3.4.9+biblibre.1",
+            "url": "https://github.com/biblibre/omeka-s-module-OaiPmhRepository"
+        },
+        {
+            "name": "OctopusViewer",
+            "version": "0.8.1",
+            "tag": "v0.8.1",
+            "url": "https://github.com/biblibre/omeka-s-module-OctopusViewer"
+        },
+        {
+            "name": "Quark",
+            "version": "0.3.1",
+            "tag": "v0.3.1",
+            "url": "https://github.com/biblibre/omeka-s-module-Quark"
+        },
+        {
+            "name": "RedirectAfterLogin",
+            "version": "0.3.0",
+            "tag": "v0.3.0",
+            "url": "https://github.com/biblibre/omeka-s-module-RedirectAfterLogin"
+        },
+        {
+            "name": "Search",
+            "version": "0.16.0",
+            "tag": "v0.16.0",
+            "url": "https://github.com/biblibre/omeka-s-module-Search"
+        },
+        {
+            "name": "ShareMeBaby",
+            "version": "1.2.3",
+            "tag": "v1.2.3b",
+            "url": "https://github.com/Kaeness/Omeka-S-module-ShareMeBaby"
+        },
+        {
+            "name": "Solr",
+            "version": "0.18.0",
+            "tag": "v0.18.0",
+            "url": "https://github.com/biblibre/omeka-s-module-Solr"
+        },
+        {
+            "name": "ValueSuggest",
+            "version": "1.17.1",
+            "tag": "v1.17.1",
+            "url": "https://github.com/omeka-s-modules/ValueSuggest"
+        },
+        {
+            "name": "ZoteroImport",
+            "version": "1.3.0",
+            "tag": "v1.3.0",
+            "url": "https://github.com/omeka-s-modules/ZoteroImport"
+        }
+    ],
+    "themes": [
+        {
+            "name": "omekalia",
+            "version": "1.0.1",
+            "tag": "v1.0.1",
+            "url": "https://github.com/biblibre/omeka-s-theme-omekalia"
+        }
+    ]
+}
