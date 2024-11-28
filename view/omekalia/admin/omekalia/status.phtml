@@ -1,80 +1,62 @@
 <?= $this->pageTitle($this->translate('Omekalia status')) ?>
 
-<h2>Omeka S</h2>
-
-<table class="tablesaw tablesaw-stack">
-    <thead>
-        <tr>
-            <th><?= $this->translate('Expected version') ?></th>
-            <th><?= $this->translate('Current version') ?></th>
-        </tr>
-    </thead>
+<table id="system-info-table">
+    <colgroup>
+        <col class="label-col">
+        <col class="value-col">
+    </colgroup>
     <tbody>
         <tr>
-            <td><?= $this->escapeHtml($omekaliaData['omeka']['version']) ?></td>
-            <td>
-                <?php if ($omekaliaData['omeka']['version'] !== \Omeka\Module::VERSION): ?>
-                    <i class="fas fa-exclamation-triangle"></i>
-                <?php endif; ?>
+            <th scope="rowgroup" colspan="2">Omeka S</th>
+        </tr>
+        <tr>
+            <th scope="row">Version</th>
+            <?php $ok = $omekaliaData['omeka']['version'] === \Omeka\Module::VERSION; ?>
+            <td class="<?= $ok ? '' : 'warning' ?>">
+                <?= $ok ? '✓' : '✗' ?>
                 <?= \Omeka\Module::VERSION ?>
+                <?php if (!$ok): ?>
+                    (<?= $this->translate('expected:') ?> <?= $this->escapeHtml($omekaliaData['omeka']['version']) ?>)
+                <?php endif; ?>
             </td>
         </tr>
     </tbody>
-</table>
 
-<h2><?= $this->translate('Modules') ?></h2>
-
-<table class="tablesaw tablesaw-stack">
-    <thead>
-        <tr>
-            <th><?= $this->translate('Module') ?></th>
-            <th><?= $this->translate('Expected version') ?></th>
-            <th><?= $this->translate('Current version') ?></th>
-        </tr>
-    </thead>
     <tbody>
+        <tr>
+            <th scope="rowgroup" colspan="2"><?= $this->translate('Modules') ?></th>
+        </tr>
         <?php foreach ($omekaliaData['modules'] as $moduleData): ?>
             <?php $module = $this->omekalia()->getModule($moduleData['name']); ?>
             <?php $ok = $module && $module->getIni('version') === $moduleData['version'] ?>
             <tr>
-                <td><?= $this->escapeHtml($moduleData['name']) ?></td>
-                <td><?= $this->escapeHtml($moduleData['version']) ?></td>
-                <td>
-                    <?php if (!$ok): ?>
-                        <i class="fas fa-exclamation-triangle"></i>
-                    <?php endif; ?>
+                <th scope="row"><?= $this->escapeHtml($moduleData['name']) ?></th>
+                <td class="<?= $ok ? '' : 'warning' ?>">
+                    <?= $ok ? '✓' : '✗' ?>
                     <?= $module ? $module->getIni('version') : $this->translate('not installed') ?>
-                    <?php if ($module && !$module->getDb('is_active')): ?>
-                        <?= $this->translate('(inactive)') ?>
+                    <?php if (!$ok): ?>
+                        (<?= $this->translate('expected:') ?> <?= $this->escapeHtml($moduleData['version']) ?>)
                     <?php endif; ?>
                 </td>
             </tr>
         <?php endforeach; ?>
     </tbody>
-</table>
 
-<h2><?= $this->translate('Themes') ?></h2>
-
-<table class="tablesaw tablesaw-stack">
-    <thead>
-        <tr>
-            <th><?= $this->translate('Theme') ?></th>
-            <th><?= $this->translate('Expected version') ?></th>
-            <th><?= $this->translate('Current version') ?></th>
-        </tr>
-    </thead>
     <tbody>
+        <tr>
+            <th scope="rowgroup" colspan="2"><?= $this->translate('Themes') ?></th>
+        </tr>
         <?php foreach ($omekaliaData['themes'] as $themeData): ?>
             <?php $theme = $this->omekalia()->getTheme($themeData['name']); ?>
             <?php $ok = $theme && $theme->getIni('version') === $themeData['version'] ?>
             <tr>
-                <td><?= $this->escapeHtml($themeData['name']) ?></td>
-                <td><?= $this->escapeHtml($themeData['version']) ?></td>
-                <td>
-                    <?php if (!$ok): ?>
-                        <i class="fas fa-exclamation-triangle"></i>
-                    <?php endif; ?>
+                <th scope="row"><?= $this->escapeHtml($themeData['name']) ?></th>
+                <td class="<?= $ok ? '' : 'warning' ?>">
+                    <?= $ok ? '✓' : '✗' ?>
                     <?= $theme ? $theme->getIni('version') : $this->translate('not installed') ?>
+                    <?php if (!$ok): ?>
+                        (<?= $this->translate('expected:') ?> <?= $this->escapeHtml($themeData['version']) ?>)
+                    <?php endif; ?>
                 </td>
             </tr>
         <?php endforeach; ?>
