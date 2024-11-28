@@ -141,7 +141,8 @@ function execute(array $argv): array
 function move(string $type, string $from, string $to)
 {
     $name = basename($to);
-    $archiveDir = dirname(__DIR__) . '/archive';
+    $dataDir = getenv('XDG_DATA_HOME') ?: sprintf('%s/.local/share', getenv('HOME'));
+    $archiveDir = "$dataDir/omekalia/archive";
     $archivePath = sprintf(
         '%s/%s-%s-%s-%s',
         $archiveDir,
@@ -150,6 +151,14 @@ function move(string $type, string $from, string $to)
         date('YmdHis'),
         sodium_bin2base64(random_bytes(3), SODIUM_BASE64_VARIANT_URLSAFE_NO_PADDING)
     );
+
+    if (!is_dir($archiveDir)) {
+        if (false === mkdir($archiveDir, 0777, true)) {
+            fprintf(STDERR, "%s %s: failed to create archive directory %s\n", $type, $name, $archiveDir);
+
+            return false;
+        }
+    }
 
     if (false === rename($to, $archivePath)) {
         fprintf(STDERR, "%s %s: failed to move %s to %s\n", $type, $name, $to, $archivePath);
