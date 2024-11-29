@@ -7,10 +7,16 @@
     </colgroup>
     <tbody>
         <tr>
-            <th scope="rowgroup" colspan="2">Omeka S</th>
+            <th scope="rowgroup" colspan="2">Omekalia</th>
         </tr>
         <tr>
             <th scope="row">Version</th>
+            <td>
+                <?= $this->omekalia()->getModule('Omekalia')->getIni('version') ?>
+            </td>
+        </tr>
+        <tr>
+            <th scope="row">Omeka S</th>
             <?php $ok = $omekaliaData['omeka']['version'] === \Omeka\Module::VERSION; ?>
             <td class="<?= $ok ? '' : 'warning' ?>">
                 <?= $ok ? '✓' : '✗' ?>
