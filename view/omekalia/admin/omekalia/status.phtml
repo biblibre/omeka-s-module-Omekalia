@@ -67,4 +67,40 @@
             </tr>
         <?php endforeach; ?>
     </tbody>
+
+    <tbody>
+        <tr>
+            <th scope="rowgroup" colspan="2"><?= $this->translate('Other') ?></th>
+        </tr>
+        <tr>
+            <th scope="row"><?= $this->escapeHtml($this->translate('Other active modules')) ?></th>
+            <td>
+                <?php if (!empty($otherActiveModules)): ?>
+                    <?= implode(', ', array_map(fn($m) => $m->getId(), $otherActiveModules)) ?>
+                <?php else: ?>
+                    <?= $this->translate('No other inactive modules') ?>
+                <?php endif; ?>
+            </td>
+        </tr>
+        <tr>
+            <th scope="row"><?= $this->escapeHtml($this->translate('Other inactive modules')) ?></th>
+            <td>
+                <?php if (!empty($otherInactiveModules)): ?>
+                    <?= implode(', ', array_map(fn($m) => $m->getId(), $otherInactiveModules)) ?>
+                <?php else: ?>
+                    <?= $this->translate('No other inactive modules') ?>
+                <?php endif; ?>
+            </td>
+        </tr>
+        <tr>
+            <th scope="row"><?= $this->escapeHtml($this->translate('Other themes')) ?></th>
+            <td>
+                <?php if (!empty($otherThemes)): ?>
+                    <?= implode(', ', array_map(fn($t) => $t->getId(), $otherThemes)) ?>
+                <?php else: ?>
+                    <?= $this->translate('No other themes') ?>
+                <?php endif; ?>
+            </td>
+        </tr>
+    </tbody>
 </table>
