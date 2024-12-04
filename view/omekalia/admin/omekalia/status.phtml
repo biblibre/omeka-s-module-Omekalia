@@ -24,26 +24,6 @@
 
     <tbody>
         <tr>
-            <th scope="rowgroup" colspan="2"><?= $this->translate('Modules') ?></th>
-        </tr>
-        <?php foreach ($omekaliaData['modules'] as $moduleData): ?>
-            <?php $module = $this->omekalia()->getModule($moduleData['name']); ?>
-            <?php $ok = $module && $module->getIni('version') === $moduleData['version'] ?>
-            <tr>
-                <th scope="row"><?= $this->escapeHtml($moduleData['name']) ?></th>
-                <td class="<?= $ok ? '' : 'warning' ?>">
-                    <?= $ok ? '✓' : '✗' ?>
-                    <?= $module ? $module->getIni('version') : $this->translate('not installed') ?>
-                    <?php if (!$ok): ?>
-                        (<?= $this->translate('expected:') ?> <?= $this->escapeHtml($moduleData['version']) ?>)
-                    <?php endif; ?>
-                </td>
-            </tr>
-        <?php endforeach; ?>
-    </tbody>
-
-    <tbody>
-        <tr>
             <th scope="rowgroup" colspan="2"><?= $this->translate('Themes') ?></th>
         </tr>
         <?php foreach ($omekaliaData['themes'] as $themeData): ?>
@@ -56,6 +36,26 @@
                     <?= $theme ? $theme->getIni('version') : $this->translate('not installed') ?>
                     <?php if (!$ok): ?>
                         (<?= $this->translate('expected:') ?> <?= $this->escapeHtml($themeData['version']) ?>)
+                    <?php endif; ?>
+                </td>
+            </tr>
+        <?php endforeach; ?>
+    </tbody>
+
+    <tbody>
+        <tr>
+            <th scope="rowgroup" colspan="2"><?= $this->translate('Modules') ?></th>
+        </tr>
+        <?php foreach ($omekaliaData['modules'] as $moduleData): ?>
+            <?php $module = $this->omekalia()->getModule($moduleData['name']); ?>
+            <?php $ok = $module && $module->getIni('version') === $moduleData['version'] ?>
+            <tr>
+                <th scope="row"><?= $this->escapeHtml($moduleData['name']) ?></th>
+                <td class="<?= $ok ? '' : 'warning' ?>">
+                    <?= $ok ? '✓' : '✗' ?>
+                    <?= $module ? $module->getIni('version') : $this->translate('not installed') ?>
+                    <?php if (!$ok): ?>
+                        (<?= $this->translate('expected:') ?> <?= $this->escapeHtml($moduleData['version']) ?>)
                     <?php endif; ?>
                 </td>
             </tr>
