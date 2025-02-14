@@ -97,8 +97,8 @@
         },
         {
             "name": "OaiPmhRepository",
-            "version": "3.4.9+biblibre.1",
-            "tag": "v3.4.9+biblibre.1",
+            "version": "3.4.9+biblibre.2",
+            "tag": "v3.4.9+biblibre.2",
             "url": "https://github.com/biblibre/omeka-s-module-OaiPmhRepository"
         },
         {
