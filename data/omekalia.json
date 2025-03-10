@@ -25,8 +25,8 @@
         },
         {
             "name": "ContactUs",
-            "version": "3.4.15+biblibre.1",
-            "tag": "v3.4.15+biblibre.1",
+            "version": "3.4.15+biblibre.3",
+            "tag": "v3.4.15+biblibre.3",
             "url": "https://github.com/biblibre/omeka-s-module-ContactUs"
         },
         {
@@ -37,8 +37,8 @@
         },
         {
             "name": "CSVImport",
-            "version": "2.6.1",
-            "tag": "v2.6.1",
+            "version": "2.6.2",
+            "tag": "v2.6.2",
             "url": "https://github.com/omeka-s-modules/CSVImport"
         },
         {
@@ -67,8 +67,8 @@
         },
         {
             "name": "ItemSetsTree",
-            "version": "0.7.2",
-            "tag": "v0.7.2",
+            "version": "0.7.3",
+            "tag": "v0.7.3",
             "url": "https://github.com/biblibre/omeka-s-module-ItemSetsTree"
         },
         {
@@ -79,8 +79,8 @@
         },
         {
             "name": "Matomo",
-            "version": "0.1.0",
-            "tag": "v0.1.0",
+            "version": "0.2.0",
+            "tag": "v0.2.0",
             "url": "https://github.com/biblibre/omeka-s-module-Matomo"
         },
         {
@@ -103,8 +103,8 @@
         },
         {
             "name": "OctopusViewer",
-            "version": "0.8.1",
-            "tag": "v0.8.1",
+            "version": "0.8.3",
+            "tag": "v0.8.3",
             "url": "https://github.com/biblibre/omeka-s-module-OctopusViewer"
         },
         {
@@ -115,14 +115,14 @@
         },
         {
             "name": "RedirectAfterLogin",
-            "version": "0.3.0",
-            "tag": "v0.3.0",
+            "version": "0.4.0",
+            "tag": "v0.4.0",
             "url": "https://github.com/biblibre/omeka-s-module-RedirectAfterLogin"
         },
         {
             "name": "Search",
-            "version": "0.16.0",
-            "tag": "v0.16.0",
+            "version": "0.17.0",
+            "tag": "v0.17.0",
             "url": "https://github.com/biblibre/omeka-s-module-Search"
         },
         {
@@ -133,8 +133,8 @@
         },
         {
             "name": "Solr",
-            "version": "0.19.0",
-            "tag": "v0.19.0",
+            "version": "0.19.1",
+            "tag": "v0.19.1",
             "url": "https://github.com/biblibre/omeka-s-module-Solr"
         },
         {
