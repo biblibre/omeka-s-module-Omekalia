@@ -35,3 +35,8 @@ proved to work well together.
 This module adds a status page to the admin interface (accessible from the
 navigation menu) where you can see if some of your modules or themes have
 versions different from what is specified in `data/omekalia.json`.
+
+## License
+
+Omekalia is distributed under the GNU General Public License, version 3 (GPLv3).
+The full text of this license is given in the `LICENSE` file.
