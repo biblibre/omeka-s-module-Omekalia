@@ -4,7 +4,7 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
-## Unreleased
+## [25.09.0] - 2025-09-11
 
 * Update module versions
 * Add license file
@@ -28,6 +28,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 Initial release
 
+[25.09.0]: https://git.biblibre.com/omeka-s/Omekalia/releases/tag/v25.09.0
 [24.11.2]: https://git.biblibre.com/omeka-s/Omekalia/releases/tag/v24.11.2
 [24.11.1]: https://git.biblibre.com/omeka-s/Omekalia/releases/tag/v24.11.1
 [24.11.0]: https://git.biblibre.com/omeka-s/Omekalia/releases/tag/v24.11.0
