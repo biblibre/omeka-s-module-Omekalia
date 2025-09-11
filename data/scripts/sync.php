@@ -11,7 +11,10 @@ function usage()
             Print this message and exit
 
         --sync-modules
-            Synchronize modules (install only, update not supported yet)
+            Synchronize modules
+
+        --sync-themes
+            Synchronize themes
     TEXT;
 }
 
