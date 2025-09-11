@@ -1,7 +1,7 @@
 # Omekalia
 
-This Omeka S module is part of [BibLibre's Omekalia offer](https://www.biblibre.com/fr/omekalia/)
-but can be used freely by anyone.
+This Omeka S module is a part of [BibLibre Omekalia offer](https://www.biblibre.com/fr/omekalia/), distributed under GNU/GPL.
+It can be used freely.
 
 Its purpose is to install a fixed set of modules and themes that have been
 proved to work well together.
