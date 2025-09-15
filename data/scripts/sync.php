@@ -65,6 +65,7 @@ function syncModules()
 
             fprintf(STDERR, "module %s: replacing %s with %s\n", $moduleData['name'], $moduleConfig['info']['version'], $moduleData['version']);
             [$tempDir] = execute(['mktemp', '-d', '-p', sys_get_temp_dir(), sprintf('omekalia-%s.XXXXXX', $moduleData['name'])]);
+            execute(['chmod', '=rwx', $tempDir]);
             execute(['git', 'clone', '--quiet', $moduleData['url'], $tempDir]);
             execute(['git', '-C', $tempDir, 'reset', '--hard', $moduleData['tag']]);
 
@@ -101,6 +102,7 @@ function syncThemes()
 
             fprintf(STDERR, "theme %s: replacing %s with %s\n", $themeData['name'], $themeConfig['info']['version'], $themeData['version']);
             [$tempDir] = execute(['mktemp', '-d', '-p', sys_get_temp_dir(), sprintf('omekalia-%s.XXXXXX', $themeData['name'])]);
+            execute(['chmod', '=rwx', $tempDir]);
             execute(['git', 'clone', '--quiet', $themeData['url'], $tempDir]);
             execute(['git', '-C', $tempDir, 'reset', '--hard', $themeData['tag']]);
 
