@@ -4,6 +4,10 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## [unreleased] - 2025-02-19
+
+* Update module versions
+
 ## [26.02.2] - 2026-02-24
 
 - Fix URL of ValueSuggest
@@ -46,6 +50,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 Initial release
 
+[unreleased]: https://git.biblibre.com/omeka-s/Omekalia
 [26.02.2]: https://git.biblibre.com/omeka-s/Omekalia/releases/tag/v26.02.2
 [26.02.1]: https://git.biblibre.com/omeka-s/Omekalia/releases/tag/v26.02.1
 [26.02.0]: https://git.biblibre.com/omeka-s/Omekalia/releases/tag/v26.02.0

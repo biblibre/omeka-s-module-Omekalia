@@ -1,8 +1,8 @@
 {
     "omeka": {
         "url": "https://github.com/omeka/omeka-s",
-        "version": "4.1.1",
-        "tag": "v4.1.1"
+        "version": "4.2.0",
+        "tag": "v4.2.0"
     },
     "modules": [
         {
@@ -139,9 +139,9 @@
         },
         {
             "name": "ValueSuggest",
-            "version": "1.19.0+biblibre.1",
-            "tag": "v1.19.0+biblibre.1",
-            "url": "https://github.com/biblibre/omeka-s-module-ValueSuggest"
+            "version": "1.20.0",
+            "tag": "v1.20.0",
+            "url": "https://github.com/omeka-s-modules/ValueSuggest"
         },
         {
             "name": "ZoteroImport",
