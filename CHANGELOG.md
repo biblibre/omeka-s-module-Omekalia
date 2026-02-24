@@ -4,7 +4,7 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
-## Unreleased
+## [26.02.1] - 2026-02-24
 
 - Downgrade ValueSuggest to 1.19.0+biblibre.1
   Version 1.20.0 requires Omeka S 4.2
@@ -42,6 +42,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 Initial release
 
+[26.02.1]: https://git.biblibre.com/omeka-s/Omekalia/releases/tag/v26.02.1
 [26.02.0]: https://git.biblibre.com/omeka-s/Omekalia/releases/tag/v26.02.0
 [25.09.1]: https://git.biblibre.com/omeka-s/Omekalia/releases/tag/v25.09.1
 [25.09.0]: https://git.biblibre.com/omeka-s/Omekalia/releases/tag/v25.09.0
