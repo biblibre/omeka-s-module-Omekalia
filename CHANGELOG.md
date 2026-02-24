@@ -4,6 +4,11 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## Unreleased
+
+- Downgrade ValueSuggest to 1.19.0+biblibre.1
+  Version 1.20.0 requires Omeka S 4.2
+
 ## [26.02.0] - 2026-02-24
 
 * Update module versions
