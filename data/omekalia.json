@@ -25,8 +25,8 @@
         },
         {
             "name": "ContactUs",
-            "version": "3.4.15+biblibre.3",
-            "tag": "v3.4.15+biblibre.3",
+            "version": "3.4.15+biblibre.4",
+            "tag": "v3.4.15+biblibre.4",
             "url": "https://github.com/biblibre/omeka-s-module-ContactUs"
         },
         {
@@ -61,14 +61,14 @@
         },
         {
             "name": "ItemSetCalendar",
-            "version": "0.3.0",
-            "tag": "v0.3.0",
+            "version": "0.4.0",
+            "tag": "v0.4.0",
             "url": "https://github.com/biblibre/omeka-s-module-ItemSetCalendar"
         },
         {
             "name": "ItemSetsTree",
-            "version": "0.7.4",
-            "tag": "v0.7.4",
+            "version": "0.7.5",
+            "tag": "v0.7.5",
             "url": "https://github.com/biblibre/omeka-s-module-ItemSetsTree"
         },
         {
@@ -91,8 +91,8 @@
         },
         {
             "name": "OaiPmhHarvester",
-            "version": "3.4.14+biblibre.2",
-            "tag": "v3.4.14+biblibre.2",
+            "version": "3.4.19-biblibre.2",
+            "tag": "v3.4.19-biblibre.2",
             "url": "https://github.com/biblibre/omeka-s-module-OaiPmhHarvester"
         },
         {
@@ -103,8 +103,8 @@
         },
         {
             "name": "OctopusViewer",
-            "version": "0.8.3",
-            "tag": "v0.8.3",
+            "version": "0.10.3",
+            "tag": "v0.10.3",
             "url": "https://github.com/biblibre/omeka-s-module-OctopusViewer"
         },
         {
@@ -121,8 +121,8 @@
         },
         {
             "name": "Search",
-            "version": "0.17.5",
-            "tag": "v0.17.5",
+            "version": "0.20.0",
+            "tag": "v0.20.0",
             "url": "https://github.com/biblibre/omeka-s-module-Search"
         },
         {
@@ -133,14 +133,14 @@
         },
         {
             "name": "Solr",
-            "version": "0.19.2",
-            "tag": "v0.19.2",
+            "version": "0.22.0",
+            "tag": "v0.22.0",
             "url": "https://github.com/biblibre/omeka-s-module-Solr"
         },
         {
             "name": "ValueSuggest",
-            "version": "1.18.0",
-            "tag": "v1.18.0",
+            "version": "1.20.0",
+            "tag": "v1.20.0",
             "url": "https://github.com/omeka-s-modules/ValueSuggest"
         },
         {
@@ -153,8 +153,8 @@
     "themes": [
         {
             "name": "omekalia",
-            "version": "1.0.8",
-            "tag": "v1.0.8",
+            "version": "1.0.10",
+            "tag": "v1.0.10",
             "url": "https://github.com/biblibre/omeka-s-theme-omekalia"
         }
     ]
