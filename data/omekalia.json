@@ -49,8 +49,8 @@
         },
         {
             "name": "Group",
-            "version": "3.4.6+biblibre.1",
-            "tag": "v3.4.6+biblibre.1",
+            "version": "3.4.6-p1",
+            "tag": "v3.4.6-p1",
             "url": "https://github.com/biblibre/omeka-s-module-Group"
         },
         {
