@@ -4,9 +4,11 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
-## [unreleased] - 2025-02-19
+## [26.03.0] - 2026-03-03
 
+* Update Omeka S to 4.2.0
 * Update module versions
+* Add module S3 Media Ingester
 
 ## [26.02.2] - 2026-02-24
 
@@ -50,7 +52,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 Initial release
 
-[unreleased]: https://git.biblibre.com/omeka-s/Omekalia
+[26.03.0]: https://git.biblibre.com/omeka-s/Omekalia/releases/tag/v26.03.0
 [26.02.2]: https://git.biblibre.com/omeka-s/Omekalia/releases/tag/v26.02.2
 [26.02.1]: https://git.biblibre.com/omeka-s/Omekalia/releases/tag/v26.02.1
 [26.02.0]: https://git.biblibre.com/omeka-s/Omekalia/releases/tag/v26.02.0
