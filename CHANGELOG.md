@@ -4,6 +4,20 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## [26.03.1] - 2026-04-20
+
+Minor updates for modules and themes
+
+### Module updates
+
+* OaiPmhHarvester 3.4.19-biblibre.2 -> 3.4.19-biblibre.3
+* Search 0.20.0 -> 0.20.2
+* Solr 0.22.0 -> 0.22.1
+
+### Theme updates
+
+* omekalia 1.0.10 -> 1.0.11
+
 ## [26.03.0] - 2026-03-03
 
 * Update Omeka S to 4.2.0

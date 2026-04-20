@@ -91,8 +91,8 @@
         },
         {
             "name": "OaiPmhHarvester",
-            "version": "3.4.19-biblibre.2",
-            "tag": "v3.4.19-biblibre.2",
+            "version": "3.4.19-biblibre.3",
+            "tag": "3.4.19-biblibre.3",
             "url": "https://github.com/biblibre/omeka-s-module-OaiPmhHarvester"
         },
         {
@@ -127,8 +127,8 @@
         },
         {
             "name": "Search",
-            "version": "0.20.0",
-            "tag": "v0.20.0",
+            "version": "0.20.2",
+            "tag": "v0.20.2",
             "url": "https://github.com/biblibre/omeka-s-module-Search"
         },
         {
@@ -139,8 +139,8 @@
         },
         {
             "name": "Solr",
-            "version": "0.22.0",
-            "tag": "v0.22.0",
+            "version": "0.22.1",
+            "tag": "v0.22.1",
             "url": "https://github.com/biblibre/omeka-s-module-Solr"
         },
         {
@@ -159,8 +159,8 @@
     "themes": [
         {
             "name": "omekalia",
-            "version": "1.0.10",
-            "tag": "v1.0.10",
+            "version": "1.0.11",
+            "tag": "v1.0.11",
             "url": "https://github.com/biblibre/omeka-s-theme-omekalia"
         }
     ]
