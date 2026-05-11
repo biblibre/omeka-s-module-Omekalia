@@ -43,8 +43,8 @@
         },
         {
             "name": "Formularium",
-            "version": "0.2.1",
-            "tag": "v0.2.1",
+            "version": "0.2.2",
+            "tag": "v0.2.2",
             "url": "https://github.com/biblibre/omeka-s-module-Formularium"
         },
         {
@@ -103,8 +103,8 @@
         },
         {
             "name": "OctopusViewer",
-            "version": "0.10.3",
-            "tag": "v0.10.3",
+            "version": "0.10.4",
+            "tag": "v0.10.4",
             "url": "https://github.com/biblibre/omeka-s-module-OctopusViewer"
         },
         {
@@ -121,8 +121,8 @@
         },
         {
             "name": "S3MediaIngester",
-            "version": "0.1.0",
-            "tag": "v0.1.0",
+            "version": "0.1.1",
+            "tag": "v0.1.1",
             "url": "https://github.com/biblibre/omeka-s-module-S3MediaIngester"
         },
         {
@@ -145,8 +145,8 @@
         },
         {
             "name": "ValueSuggest",
-            "version": "1.20.0",
-            "tag": "v1.20.0",
+            "version": "1.20.1",
+            "tag": "v1.20.1",
             "url": "https://github.com/omeka-s-modules/ValueSuggest"
         },
         {
