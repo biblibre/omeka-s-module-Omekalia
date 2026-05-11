@@ -24,12 +24,6 @@
             "url": "https://github.com/biblibre/omeka-s-module-Coins"
         },
         {
-            "name": "ContactUs",
-            "version": "3.4.15+biblibre.4",
-            "tag": "v3.4.15+biblibre.4",
-            "url": "https://github.com/biblibre/omeka-s-module-ContactUs"
-        },
-        {
             "name": "CreateMissingThumbnails",
             "version": "0.3.0",
             "tag": "v0.3.0",
@@ -46,6 +40,12 @@
             "version": "1.7.1",
             "tag": "v1.7.1",
             "url": "https://github.com/omeka-s-modules/FileSideload"
+        },
+        {
+            "name": "Formularium",
+            "version": "0.2.1",
+            "tag": "v0.2.1",
+            "url": "https://github.com/biblibre/omeka-s-module-Formularium"
         },
         {
             "name": "Group",
@@ -148,6 +148,12 @@
             "version": "1.20.0",
             "tag": "v1.20.0",
             "url": "https://github.com/omeka-s-modules/ValueSuggest"
+        },
+        {
+            "name": "ValueSuggestUpdater",
+            "version": "0.1.4",
+            "tag": "v0.1.4",
+            "url": "https://github.com/biblibre/omeka-s-module-ValueSuggestUpdater"
         },
         {
             "name": "ZoteroImport",
