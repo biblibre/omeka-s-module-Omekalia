@@ -4,6 +4,18 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## [26.03.2] - 2026-05-11
+
+* Replace ContactUs by Formularium (0.2.2)
+* Add module ValueSuggestUpdater (0.1.4)
+* Minor updates for other modules
+
+### Module updates
+
+* OctopusViewer 0.10.3 -> 0.10.4
+* S3MediaIngester 0.1.0 -> 0.1.1
+* ValueSuggest 1.20.0 -> 1.20.1
+
 ## [26.03.1] - 2026-04-20
 
 Minor updates for modules and themes
@@ -66,6 +78,8 @@ Minor updates for modules and themes
 
 Initial release
 
+[26.03.2]: https://git.biblibre.com/omeka-s/Omekalia/releases/tag/v26.03.2
+[26.03.1]: https://git.biblibre.com/omeka-s/Omekalia/releases/tag/v26.03.1
 [26.03.0]: https://git.biblibre.com/omeka-s/Omekalia/releases/tag/v26.03.0
 [26.02.2]: https://git.biblibre.com/omeka-s/Omekalia/releases/tag/v26.02.2
 [26.02.1]: https://git.biblibre.com/omeka-s/Omekalia/releases/tag/v26.02.1
