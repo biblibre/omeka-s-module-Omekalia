@@ -92,7 +92,7 @@
         {
             "name": "OaiPmhHarvester",
             "version": "3.4.19-biblibre.3",
-            "tag": "3.4.19-biblibre.3",
+            "tag": "v3.4.19-biblibre.3",
             "url": "https://github.com/biblibre/omeka-s-module-OaiPmhHarvester"
         },
         {
