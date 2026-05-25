@@ -4,6 +4,19 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## [26.03.3] - 2026-05-25
+
+### Module updates
+
+* Formularium 0.2.2 -> 0.3.1
+* ItemSetCalendar 0.4.0 -> 0.5.0
+* OaiPmhHarvester 3.4.19-biblibre.3 -> 3.4.19-biblibre.4
+* Search 0.20.2 -> 0.21.0
+* Solr 0.22.1 -> 0.24.0
+* ValueSuggest 1.20.1 -> 1.19.0+biblibre.1
+* ValueSuggestUpdater 0.1.4 -> 0.1.5
+* ZoteroImport 1.3.0 -> 1.3.0+biblibre.1
+
 ## [26.03.2] - 2026-05-11
 
 * Replace ContactUs by Formularium (0.2.2)
@@ -78,6 +91,7 @@ Minor updates for modules and themes
 
 Initial release
 
+[26.03.3]: https://git.biblibre.com/omeka-s/Omekalia/releases/tag/v26.03.3
 [26.03.2]: https://git.biblibre.com/omeka-s/Omekalia/releases/tag/v26.03.2
 [26.03.1]: https://git.biblibre.com/omeka-s/Omekalia/releases/tag/v26.03.1
 [26.03.0]: https://git.biblibre.com/omeka-s/Omekalia/releases/tag/v26.03.0
