@@ -36,6 +36,12 @@
             "url": "https://github.com/omeka-s-modules/CSVImport"
         },
         {
+            "name": "CustomVocab",
+            "version": "2.1.0",
+            "tag": "v2.1.0",
+            "url": "https://github.com/omeka-s-modules/CustomVocab"
+        },
+        {
             "name": "FileSideload",
             "version": "1.7.1",
             "tag": "v1.7.1",
