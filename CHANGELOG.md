@@ -4,7 +4,7 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
-## Unreleased
+## [26.06.1] - 2026-06-30
 
 * Add module Columbo (0.1.4)
 
@@ -99,6 +99,7 @@ Minor updates for modules and themes
 
 Initial release
 
+[26.06.1]: https://git.biblibre.com/omeka-s/Omekalia/releases/tag/v26.06.1
 [26.06.0]: https://git.biblibre.com/omeka-s/Omekalia/releases/tag/v26.06.0
 [26.03.3]: https://git.biblibre.com/omeka-s/Omekalia/releases/tag/v26.03.3
 [26.03.2]: https://git.biblibre.com/omeka-s/Omekalia/releases/tag/v26.03.2
