@@ -24,6 +24,12 @@
             "url": "https://github.com/biblibre/omeka-s-module-Coins"
         },
         {
+            "name": "Columbo",
+            "version": "0.1.4",
+            "tag": "v0.1.4",
+            "url": "https://github.com/biblibre/omeka-s-module-Columbo"
+        },
+        {
             "name": "CreateMissingThumbnails",
             "version": "0.3.0",
             "tag": "v0.3.0",
