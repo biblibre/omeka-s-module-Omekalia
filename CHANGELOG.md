@@ -4,6 +4,10 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
+## Unreleased
+
+* Add module IiifPresentation (1.1.2)
+
 ## [26.06.1] - 2026-06-30
 
 * Add module Columbo (0.1.4)
